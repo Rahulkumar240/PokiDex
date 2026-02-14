@@ -10,7 +10,7 @@ const Navbar = ({search, setsearch}) => {
             <input
             type = "text"
             placeholder="Search Pokemon"
-            className='px-20 py-2 rounded-md text-white bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500'
+            className='px-4 py-2 rounded-md text-white bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500'
             value={search}
             onChange={(e) => setsearch(e.target.value)}
             />
